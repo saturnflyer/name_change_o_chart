@@ -1,8 +1,10 @@
 # NameChangeOChart
 
-Finally, you can convert your currently boring name to something far more exciting. This name converter is based on "Captain Underpants and the Perilous Plot of Professor Poopypants", by Dav Pilkey.
+Finally, you can convert your currently boring name to something far more exciting. This name converter is based on "Captain Underpants and the Perilous Plot of Professor Poopypants", by [Dav Pilkey](http://www.pilkey.com).
 
 ![Professor Poopypants](PPP.gif "Professor Poopypants")
+
+The name conversion is copyright of Dav Pilkey.
 
 ## Installation
 
