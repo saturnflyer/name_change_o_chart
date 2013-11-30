@@ -20,7 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-NameChangeOChart.convert('Yukohiro Matsumoto') #=> 
+```ruby
+NameChangeOChart.convert('Yukohiro Matsumoto') #=> "dinky bananahiney"
+```
 
 ## Contributing
 
