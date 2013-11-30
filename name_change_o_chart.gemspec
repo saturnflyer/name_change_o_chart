@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = NameChangeOChart::VERSION
   spec.authors       = ["'Jim Gay'"]
   spec.email         = ["jim@saturnflyer.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{Name converter based on "Captain Underpants and the Perilous Plot of Professor Poopypants", by Dav Pilkey}
+  spec.summary       = %q{Convert your boring name to something more fun.}
+  spec.homepage      = "https://github.com/saturnflyer/name_change_o_chart"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
