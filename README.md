@@ -26,6 +26,13 @@ Or install it yourself as:
 NameChangeOChart.convert('Yukohiro Matsumoto') #=> "dinky bananahiney"
 ```
 
+Or from the command line: 
+
+```bash
+ruby -e "require 'name_change_o_chart'; p NameChangeOChart.convert('Stinky Wafflebuns')" =>
+"snotty chucklefanny"
+```
+
 ## Contributing
 
 1. Fork it
