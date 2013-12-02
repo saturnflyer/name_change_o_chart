@@ -29,7 +29,7 @@ NameChangeOChart.convert('Yukohiro Matsumoto') #=> "dinky bananahiney"
 Or from the command line: 
 
 ```bash
-ruby -e "require 'name_change_o_chart'; p NameChangeOChart.convert('Stinky Wafflebuns')" =>
+ruby -rname_change_o_chart -e "p NameChangeOChart.convert('Stinky Wafflebuns')" =>
 "snotty chucklefanny"
 ```
 
