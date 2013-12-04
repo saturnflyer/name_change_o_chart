@@ -41,8 +41,6 @@ ruby -rname_change_o_chart -e "p NameChangeOChart.convert('Stinky Wafflebuns')" 
 
 "That's Sir Crusty Hamsterhumperdink." -- [Crusty Hamsterhumperdink](https://twitter.com/evanphx/status/408280969641074689)
 
-"I'm Crusty Bubbleshorts" -- [Crusty Bubbleshorts](https://twitter.com/alexrothenberg/status/408275943745400832)
-
 ## Contributing
 
 1. Fork it
