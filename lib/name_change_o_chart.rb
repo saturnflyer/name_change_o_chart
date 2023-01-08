@@ -1,6 +1,10 @@
-require "name_change_o_chart/version"
+# frozen_string_literal: true
+
+require_relative "name_change_o_chart/version"
 
 module NameChangeOChart
+  module_function
+
   def convert(name)
     parts = name.to_s.downcase.split
     start = parts.first.to_s
@@ -13,63 +17,62 @@ module NameChangeOChart
     %{#{first_of_first(first)} #{first_of_last(second)}#{last_of_last(third)}}
   end
   
-
   def first_of_first(letter)
-    {"a" => "stinky",
-    "b" => "lumpy",
-    "c" => "buttercup",
-    "d" => "gidget",
-    "e" => "crusty",
-    "f" => "greasy",
-    "g" => "fluffy",
-    "h" => "cheeseball",
-    "i" => "chim-chim",
-    "j" => "poopsie",
-    "k" => "flunky",
-    "l" => "booger",
-    "m" => "pinky",
-    "n" => "zippy",
-    "o" => "goober",
-    "p" => "doofus",
-    "q" => "slimy",
-    "r" => "loopy",
-    "s" => "snotty",
-    "t" => "falafel",
-    "u" => "dorkey",
-    "v" => "squeezit",
-    "w" => "oprah",
-    "x" => "skipper",
-    "y" => "dinky",
-    "z" => "zsa-zsa"}.fetch(letter)
+    {"a" => "Stinky",
+    "b" => "Lumpy",
+    "c" => "Buttercup",
+    "d" => "Gidget",
+    "e" => "Crusty",
+    "f" => "Greasy",
+    "g" => "Fluffy",
+    "h" => "Cheeseball",
+    "i" => "Chim-chim",
+    "j" => "Poopsie",
+    "k" => "Flunky",
+    "l" => "Booger",
+    "m" => "Pinky",
+    "n" => "Zippy",
+    "o" => "Goober",
+    "p" => "Doofus",
+    "q" => "Slimy",
+    "r" => "Loopy",
+    "s" => "Snotty",
+    "t" => "Falafel",
+    "u" => "Dorkey",
+    "v" => "Squeezit",
+    "w" => "Oprah",
+    "x" => "Skipper",
+    "y" => "Dinky",
+    "z" => "Zsa-zsa"}.fetch(letter)
   end
   
   def first_of_last(letter)
-    {"a" => "diaper",
-    "b" => "toilet",
-    "c" => "giggle",
-    "d" => "bubble",
-    "e" => "girdle",
-    "f" => "barf",
-    "g" => "lizard",
-    "h" => "waffle",
-    "i" => "cootie",
-    "j" => "monkey",
-    "k" => "potty",
-    "l" => "liver",
-    "m" => "banana",
-    "n" => "rhino",
-    "o" => "burger",
-    "p" => "hamster",
-    "q" => "toad",
-    "r" => "gizzard",
-    "s" => "pizza",
-    "t" => "gerbil",
-    "u" => "chicken",
-    "v" => "pickle",
-    "w" => "chuckle",
-    "x" => "tofu",
-    "y" => "gorilla",
-    "z" => "stinker"}.fetch(letter)
+    {"a" => "Diaper",
+    "b" => "Toilet",
+    "c" => "Giggle",
+    "d" => "Bubble",
+    "e" => "Girdle",
+    "f" => "Barf",
+    "g" => "Lizard",
+    "h" => "Waffle",
+    "i" => "Cootie",
+    "j" => "Monkey",
+    "k" => "Potty",
+    "l" => "Liver",
+    "m" => "Banana",
+    "n" => "Rhino",
+    "o" => "Burger",
+    "p" => "Hamster",
+    "q" => "Toad",
+    "r" => "Gizzard",
+    "s" => "Pizza",
+    "t" => "Gerbil",
+    "u" => "Chicken",
+    "v" => "Pickle",
+    "w" => "Chuckle",
+    "x" => "Tofu",
+    "y" => "Gorilla",
+    "z" => "Stinker"}.fetch(letter)
   end
   
   def last_of_last(letter)
@@ -100,6 +103,4 @@ module NameChangeOChart
     "y" => "brains",
     "z" => "juice"}.fetch(letter)
   end
-  
-  module_function *self.instance_methods(false)
 end
