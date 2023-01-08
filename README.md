@@ -23,14 +23,14 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-NameChangeOChart.convert('Yukohiro Matsumoto') #=> "dinky bananahiney"
+NameChangeOChart.convert('Yukohiro Matsumoto') #=> "Dinky Bananahiney"
 ```
 
 Or from the command line: 
 
 ```bash
 ruby -rname_change_o_chart -e "p NameChangeOChart.convert('Stinky Wafflebuns')" =>
-"snotty chucklefanny"
+"Snotty Chucklefanny"
 ```
 
 ## Testimonials
