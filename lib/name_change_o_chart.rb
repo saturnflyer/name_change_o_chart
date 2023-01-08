@@ -7,12 +7,12 @@ module NameChangeOChart
 
   def convert(name)
     parts = name.to_s.downcase.split
-    start = parts.first.to_s
-    ending = parts.last.to_s
+    start = parts.first
+    ending = parts.last
     
-    first = start[0]
-    second = ending[0]
-    third = ending[-1]
+    first = start.first
+    second = ending.first
+    third = ending.last
     
     %{#{first_of_first(first)} #{first_of_last(second)}#{last_of_last(third)}}
   end
